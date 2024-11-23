@@ -394,8 +394,8 @@ export function GlobeDemo() {
     ];
 
     return (
-        <div className="">
-            <div className="mx-auto w-fit min-w-[550px] relative overflow-x-hidden h-full min-h-[70vh] px-4 ">
+        <div className="-ms-8 md:-ms-6 lg:ms-0">
+            <div className=" w-fit min-w-[370px] lg:min-w-[550px] relative overflow-x-hidden h-full min-h-[50vh] lg:min-h-[70vh] px-4 ">
                 <div className="absolute w-full py-10 h-[100%] md:h-full z-10">
                     <World data={sampleArcs} globeConfig={globeConfig} />
                 </div>
