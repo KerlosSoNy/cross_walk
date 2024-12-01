@@ -30,7 +30,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="ymYfjvSdKiU-l4BrhY98KgFhOGRcRpehbUUsIKvpaW8" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden bg-black`}
       >
         <Navbar />
         {children}
