@@ -1,5 +1,4 @@
 import Hero_section from "@/components/heroSection/hero_section";
-import { WorldMapDemo } from "@/components/worldDemo";
 
 export default function Home() {
   return (

@@ -1,9 +1,10 @@
 import React from 'react'
+import Spline from '@splinetool/react-spline'
 import { GlobeDemo } from '../globalWorldComponent'
 
 export default function Hero_section() {
     return (
-        <div className="flex flex-col-reverse pb-10 lg:pb-0 lg:flex-row gap-4 justify-center ps-0  lg:ps-12 items-center h-[86vh]">
+        <div className="flex flex-col-reverse pb-20 lg:pb-0 lg:flex-row gap-4 justify-center ps-0  lg:ps-12 items-center h-[86vh]">
             <div className='px-2'>
                 <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#BE2F2F] via-pink-500 to-blue-500 text-center lg:text-start">
                     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#BE2F2F] via-pink-500 to-blue-500">
@@ -31,7 +32,16 @@ export default function Hero_section() {
                     </button>
                 </div>
             </div>
-            <GlobeDemo />
+            <div className='mt-16 block lg:hidden'>
+                <GlobeDemo />
+            </div>
+            <div className='relative p-3 w-[55vw] h-[55vh] hidden lg:block'>
+                <Spline
+                    scene="https://prod.spline.design/ouIPRtPHrBzvXXZQ/scene.splinecode"
+                />
+                <div className="absolute bg-black w-[150px] h-[100px] bottom-5 right-5 !z-[100000]">
+                </div>
+            </div>
         </div>
     )
 }
