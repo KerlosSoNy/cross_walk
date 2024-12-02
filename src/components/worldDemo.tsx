@@ -5,7 +5,7 @@ import FormContactUs from "./formContactUs";
 
 export function WorldMapDemo() {
     return (
-        <div className=" py-10 dark:bg-black w-[90vw] overflow-x-hidden">
+        <div className=" py-10 dark:bg-black w-[90vw] overflow-x-hidden flex flex-row justify-center">
             <div className="absolute z-[-10] flex flex-row justify-center top-[50px] lg:-top-[270px]">
                 <WorldMap
                     dots={[
@@ -42,7 +42,7 @@ export function WorldMapDemo() {
                     ]}
                 />
             </div>
-            <div className=" mx-auto h-screen text-center max-w-screen flex flex-col items-center justify-center -mt-10 lg:mt-0 !z-[10000000]">
+            <div className="h-[76vh] text-center flex flex-col items-center justify-center mt-20 lg:mt-32 !z-[10000000] overflow-y-hidden overflow-x-hidden">
                 <p className="font-bold px-2 text-xl md:text-4xl dark:text-white text-white">
                     Empower Your{" "}
                     <span className="text-[#948e8e]">

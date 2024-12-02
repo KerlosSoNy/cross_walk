@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function page() {
     return (
-        <div className='w-[98vw] overflow-x-hidden'>
+        <div className='flex flex-col items-center justify-center overflow-x-hidden'>
             <WorldMapDemo />
         </div>
     )

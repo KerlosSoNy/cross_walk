@@ -102,7 +102,7 @@ export function StartButton() {
                         </div>
                     </ModalContent>
                     <ModalFooter className="gap-4">
-                        <Link href="mailto:capscodeeg.info@gmail.com" className="bg-mainColor text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-mainColor w-28">
+                        <Link href="mailto:crosswalk.eg@gmail.com" className=" text-[#BE2F2F] text-sm px-2 py-1 rounded-md border border-[#BE2F2F] w-fit hover:scale-110 duration-500">
                             Start Now
                         </Link>
                     </ModalFooter>

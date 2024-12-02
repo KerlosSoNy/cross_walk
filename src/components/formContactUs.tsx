@@ -28,7 +28,7 @@ export default function FormContactUs() {
         form.reset();
     }
     return (
-        <div className="flex flex-wrap  justify-between items-center h-auto p-5 my-5">
+        <div className="flex flex-wrap justify-between items-center h-auto px-5 pt-5 mt-5">
             <div className="min-w-[370px] md:min-w-[600px]">
                 <form className="space-y-4 min-w-[370px] md:min-w-[600px]" onSubmit={handleSubmit}>
                     <div>
