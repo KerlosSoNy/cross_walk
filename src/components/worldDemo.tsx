@@ -42,7 +42,7 @@ export function WorldMapDemo() {
                     ]}
                 />
             </div>
-            <div className="h-[76vh] text-center flex flex-col items-center justify-center mt-20 lg:mt-32 !z-[10000000] overflow-y-hidden overflow-x-hidden">
+            <div className="h-[76vh] lg:h-[85vh] text-center flex flex-col items-center justify-center mt-20 lg:mt-0 !z-[10000000] overflow-y-hidden overflow-x-hidden">
                 <p className="font-bold px-2 text-xl md:text-4xl dark:text-white text-white">
                     Empower Your{" "}
                     <span className="text-[#948e8e]">
@@ -59,7 +59,7 @@ export function WorldMapDemo() {
                         ))}
                     </span>
                 </p>
-                <p className="text-sm md:text-lg text-white font-bold w-[95%] md:w-[75%] lg:w-[50%]  mx-auto py-4">
+                <p className="text-sm md:text-lg bg-black bg-opacity-25 text-white font-bold w-[95%] md:w-[75%] lg:w-[50%]  mx-auto py-4">
                     Have a groundbreaking idea or need help scaling your business? Our team of experts is here to turn your vision into reality. From strategy to execution, we are ready to craft tailored solutions that drive results.
                 </p>
                 <FormContactUs />

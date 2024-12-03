@@ -13,19 +13,19 @@ export default function Footer() {
                         <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-center">Trusted in more than 3 countries & 40 customers. Have any query ?</p>
                     </div>
                     <div className="lg:mx-auto text-left ">
-                        <h4 className="text-lg text-gray-900 font-medium mb-7">Pagedone</h4>
+                        <h4 className="text-lg text-[#BA2E2E] font-medium mb-7">CrossWalk</h4>
                         <ul className="text-sm  transition-all duration-500">
-                            <li className="mb-6"><Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link></li>
-                            <li className="mb-6"><Link href="/" className=" text-gray-600 hover:text-gray-900">About</Link></li>
-                            <li><Link href="/" className=" text-gray-600 hover:text-gray-900">Pricing</Link></li>
+                            <li className="mb-4"><Link href="/" className="text-gray-600 mb-2 hover:text-white duration-500 transition-all hover:cursor-pointer">Home</Link></li>
+                            <li className="mb-4">
+                                <Link href="/" className=" text-gray-600 mb-2 hover:text-white duration-500 transition-all hover:cursor-pointer">About</Link></li>
+                            <li className="mb-4"><Link href="/" className=" text-gray-600 mb-2 hover:text-white duration-500 transition-all hover:cursor-pointer">Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className="lg:mx-auto text-left ">
-                        <h4 className="text-lg text-gray-900 font-medium mb-7">Products</h4>
+                        <h4 className="text-lg text-[#BA2E2E] font-medium mb-7">Products</h4>
                         <ul className="text-sm  transition-all duration-500">
-                            <li className="mb-6"><Link href="/" className="text-gray-600 hover:text-gray-900">Figma UI System</Link></li>
-                            <li className="mb-6"><Link href="" className=" text-gray-600 hover:text-gray-900">Icons Assets</Link></li>
-                            <li><Link href="to" className=" text-gray-600 hover:text-gray-900">Responsive Blocks</Link></li>
+                            <li className="mb-4"><Link href="/" className=" text-gray-600 mb-2 hover:text-white duration-500 transition-all hover:cursor-pointer">Projects</Link></li>
+                            <li className="mb-4"><Link href="/" className=" text-gray-600 mb-2 hover:text-white duration-500 transition-all hover:cursor-pointer">Service</Link></li>
                         </ul>
                     </div>
 
